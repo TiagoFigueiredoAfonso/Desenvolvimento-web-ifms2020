@@ -1,0 +1,53 @@
+body{
+    background: rgb(67, 94, 28);
+    color: white;
+}
+h1#tituloMapaSite:hover {
+    color: rgb(71, 255, 71);
+}
+div#interface p{
+    background: rgb(138, 138, 40);
+    text-align: justify;
+    padding: 10px;
+
+}
+div#interface p:hover{
+    background: rgb(59, 59, 5);
+}
+ul {
+    background: rgb(99, 99, 22);
+ 
+}
+li:hover {
+    background: green;
+}
+a {    
+    color: white;
+}   
+p {
+    background: rgb(99, 99, 22);
+}
+div#interface {
+    background: rgb(99, 99, 22);
+    position: relative;
+    left: 20%;
+    width: 800px;
+}
+div.clube {
+    background: rgb(99, 99, 22);
+    position: relative;
+    margin: auto;
+    width: 500px;
+}
+table {
+   border-spacing: 0px;
+}
+td {
+    border: 1px solid;
+    border-spacing: 0px;
+    text-align: center;
+}
+tr:hover {
+    background: rgb(233, 7, 7);
+}     
+ 
