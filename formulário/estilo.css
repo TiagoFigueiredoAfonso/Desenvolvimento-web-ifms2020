@@ -1,0 +1,25 @@
+form{
+    display: block;
+    background-color: rgb(66, 65, 138);
+    padding: 10px;
+    border-radius: 8px ;
+    color: white;
+    margin: auto;
+    width: 350px;
+    text-shadow: 1px 1px grey;
+}   
+h2 {
+    text-align: center;
+}
+input:hover {
+    background-color: rgb(201, 189, 189);
+}
+textarea:hover {
+    background-color: rgb(201, 189, 189);
+} 
+select:hover {
+    background-color: rgb(201, 189, 189);
+}
+
+
+

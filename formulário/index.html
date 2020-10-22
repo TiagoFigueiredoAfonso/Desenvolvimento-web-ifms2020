@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="http://adairsojr.ddns.net/formulario" method="POST" autocomplete="off" target="_blank" enctype="multipart/form-data">
+        <h2>CADASTRO PARA LISTA DE ESPERA</h2>
+        <fieldset><legend>Informações do usuário</legend> 
+    
+    <p>       
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" maxlength="40" required placeholder="Nome Completo" autofocus >
+    </p>
+    
+    <p>
+        <label for="data">Data de Nascimento:</label>
+        <input type="date" name="data" id="data">
+    </p>
+    
+    <p> 
+        <fieldset><legend>Sexo</legend>
+        <label for="masc">Masculino</label>
+        <input type="radio" name="sel" id="masc">
+    
+        <label for="fem">Feminino</label>
+        <input type="radio" name="sel" id="fem">
+        </fieldset>
+    </p>
+    <p>
+        <label for="meuseletor">Cidade</label>
+        <select name="meuseletor" id="meuseletor">
+            <option value="">Escolha</option>
+            <option value="1">Aquidauana</option>
+            <option value="2">Campo Grande</option>
+            <option value="3">Corumbá</option>
+            <option value="4">Dourados</option>
+        </select>
+    </p>
+    <p>
+        <label for="endereco">Endereço:</label>
+        <input type="text" name="endereco" id="endereco" placeholder="Rua, Av, Travessa">
+    </p>
+    
+    <p>
+        <label for="num">Número:</label>
+        <input type="number" name="num" id="num" min="0" max="9999">
+    </p>
+    <label for="fone">DDD + Celular:</label>
+    <input type="tel" name="fone" id="fone" placeholder="(67)99999-9999" title="Digite o DDD" pattern="[0-9]+$">
+    <p>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" placeholder="meuemail@exemplo.com">
+    </p>
+
+    <p>
+        <label for="pass">Senha:</label>
+        <input type="password" name="pass" id="pass" size="8" maxlength="8" placeholder="8 digitos" title="Somente números" >
+    </p>
+    <p>
+        
+        <input type="file" name="anexo[]" id="anexo" multiple>                
+    </p>
+    <p>
+    <label for="msg">Informações adicionais</label>
+    <textarea name="msg" id="msg" cols="30" rows=""></textarea>
+    </p>
+    
+    
+    <p>
+    <label for="verif">Li e concordo com os termos e condições de uso</label>
+    <input type="checkbox" name="verif" id="verif" required>
+    
+    </p>
+       <input type="submit" value="Enviar">
+    </form>
+
+    
+</body>
+</html>
