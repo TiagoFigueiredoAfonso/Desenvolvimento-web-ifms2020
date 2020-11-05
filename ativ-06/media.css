@@ -1,0 +1,11 @@
+@media (max-width: 900px){
+    header {
+        border: 4px solid yellow;
+    }
+    h1 {
+        color: yellow;
+    }
+    a {
+        color: blue;
+    }
+}
