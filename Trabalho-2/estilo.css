@@ -1,0 +1,104 @@
+.grid {
+    display: grid;
+    
+}
+header{
+    
+    grid-area: header;
+    
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4CAF50;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(161, 154, 154);
+  }
+  
+  .active {
+    background-color: yellowgreen;
+  }
+  .active:hover {
+      background: rgb(161, 154, 154);
+  }
+main{
+    
+   
+    grid-area: main;
+    
+}
+.fig{
+    font-family: "Source Sans Pro Regular",sans-serif;
+    color: #4d4d4d;
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 20px;
+
+}
+.fig2{
+    color: #8c8c8c;
+    line-height: 1.125em;
+    text-decoration: line-through;
+    font-size: 14px;
+    margin: 1px 5px 0 0
+}
+.fig3{
+    color: #333;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+} 
+.fig4{
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+    height: auto;
+    min-height: 21px;
+    padding: 5px 0 0;
+    font-weight: 400;
+}
+
+footer{
+    background: #4CAF50;
+    
+    grid-area: footer;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 20vh 70vh 10vh;
+    grid-column-gap: 2px; /*espaçamento entre colunas*/
+    grid-row-gap: 10px; /*espaçamento entre linhas*/
+    grid-template-areas: "header header"
+                            "main main"
+                            "main main"
+                            "footer footer";
+    
+}
+.sub-container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+footer{
+    
+    text-align: center;
+    color: white;
+}
